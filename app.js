@@ -49,7 +49,6 @@ d.slice(e-c+1,e+c+2).addClass("slick-active").attr("aria-hidden","false")),0===a
       arrows: true,
       nextArrow: '<div class="arrow-button right"><img src="images/Arrow_right.svg"></div>',
       prevArrow: '<div class="arrow-button left"><img src="images/Arrow_left.svg"></div>',
-      centerMode: true,
       variableWidth: true,
       responsive: [
         {
