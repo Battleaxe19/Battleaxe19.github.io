@@ -52,7 +52,7 @@ d.slice(e-c+1,e+c+2).addClass("slick-active").attr("aria-hidden","false")),0===a
     });
 
     $(".js-membership").click(function() {
-      jQuery("html,body").animate({scrollTop: jQuery("#membership").offset().top - 108}, 1000);
+      jQuery("html,body").animate({scrollTop: jQuery("#member").offset().top - 108}, 1000);
 
       return false;
     });
