@@ -116,6 +116,13 @@ $(document).ready(function(){
     }
 	});
 
+  $( ".mobile-links li" ).click(function() {
+    $(".mobile-nav").toggleClass("active");
+    $(".mobile-nav").slideUp();
+		event.preventDefault();
+
+	});
+
   $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
