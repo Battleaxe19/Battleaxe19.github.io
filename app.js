@@ -93,7 +93,7 @@ d.slice(e-c+1,e+c+2).addClass("slick-active").attr("aria-hidden","false")),0===a
             slidesToShow: 2,
             centerMode: true,
             centerPadding: "80px",
-            arrows: false
+            arrows: true
           }
         }
       ]
@@ -123,6 +123,12 @@ $(document).ready(function(){
 
 	});
 
+
+  $('.form-submit').click(function () {
+    // Load up a new modal...
+    $('#successModal').modal('show')
+  });
+
   $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
@@ -134,4 +140,12 @@ $(document).ready(function(){
       $(".c-navbar-container").removeClass("scrolled");
     }
   });
+});
+
+$(document).ready(function() {
+
+  if(window.location.href.indexOf('#successModal') != -1) {
+    $('#successModal').modal('show');
+  }
+
 });
