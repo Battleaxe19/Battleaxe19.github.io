@@ -555,7 +555,7 @@
     <div class="c-our-team-profile-section">
       <h3>COMMITTEE</h3>
 
-      <div class="c-team-profile">
+      <div class="c-team-profile" data-toggle="modal" data-target="#krisModal">
         <img src="/images/KrisBowser.png"/>
         <div class="c-team-info">
           <h2>KRIS BOWSER</h2>
@@ -573,7 +573,7 @@
         </div>
       </div>
 
-      <div class="c-team-profile">
+      <div class="c-team-profile" data-toggle="modal" data-target="#chrisellaModal">
         <img src="/images/ChrisellaHerzog.png"/>
         <div class="c-team-info">
           <h2>CHRISELLA HERZOG</h2>
@@ -582,7 +582,7 @@
         </div>
       </div>
 
-      <div class="c-team-profile">
+      <div class="c-team-profile" data-toggle="modal" data-target="#londonModal">
         <img src="/images/London.png"/>
         <div class="c-team-info">
           <h2>LONDON SUTHERLAND</h2>
@@ -591,7 +591,7 @@
         </div>
       </div>
 
-      <div class="c-team-profile">
+      <div class="c-team-profile" data-toggle="modal" data-target="#lauraModal">
         <img src="/images/LauraMontoya.png"/>
         <div class="c-team-info">
           <h2>LAURA MONTOYA</h2>
@@ -600,7 +600,7 @@
         </div>
       </div>
 
-      <div class="c-team-profile">
+      <div class="c-team-profile" data-toggle="modal" data-target="#melissaModal">
         <img src="/images/Melissa.png"/>
         <div class="c-team-info">
           <h2>MELISSA KNUTSON</h2>
@@ -614,7 +614,7 @@
     <div class="c-our-team-profile-section">
       <h3>ADVISORY BOARD</h3>
 
-      <div class="c-team-profile">
+      <div class="c-team-profile" data-toggle="modal" data-target="#krisModal">
         <img src="/images/KrisBowser.png"/>
         <div class="c-team-info">
           <h2>KRIS BOWSER</h2>
@@ -632,7 +632,7 @@
         </div>
       </div>
 
-      <div class="c-team-profile">
+      <div class="c-team-profile" data-toggle="modal" data-target="#chrisellaModal">
         <img src="/images/ChrisellaHerzog.png"/>
         <div class="c-team-info">
           <h2>CHRISELLA HERZOG</h2>
@@ -641,7 +641,7 @@
         </div>
       </div>
 
-      <div class="c-team-profile">
+      <div class="c-team-profile" data-toggle="modal" data-target="#londonModal">
         <img src="/images/London.png"/>
         <div class="c-team-info">
           <h2>LONDON SUTHERLAND</h2>
@@ -650,7 +650,7 @@
         </div>
       </div>
 
-      <div class="c-team-profile">
+      <div class="c-team-profile" data-toggle="modal" data-target="#lauraModal">
         <img src="/images/LauraMontoya.png"/>
         <div class="c-team-info">
           <h2>LAURA MONTOYA</h2>
@@ -665,9 +665,11 @@
       <h3>SIGN UP FOR OUR NEWSLETTER</h3>
       <form class="c-sign-up-news-form" action="index.html" method="post">
         <input class="c-text-input" type="text" name="mail" placeholder="ENTER YOUR EMAIL ADDRESS">
-        <button type="submit" class="c-btn c-btn--square c-btn--arrow c-btn--no-margin c-btn--gold" ><img src="images/button-arrow.svg">SIGN UP</button>
+        <button type="submit" class="c-btn c-btn--square c-btn--arrow c-btn--gold" >SIGN UP <img src="images/button-arrow.svg"></button>
       </form>
     </div>
+
+
   </section>
 
   <section id="contact" class="c-contact">
@@ -693,11 +695,115 @@
     </div>
 
     <div class="c-footer-section--right">
-      <a href="#"><img src="/images/Facebook.png"/></a>
-      <a href="#"><img src="/images/LinkedIn.png"/></a>
-      <a href="#"><img src="/images/instagram.png"/></a>
+      <a href="#"><i class="icon-facebook"></i></a>
+      <a href="#"><i class="icon-linkedin"></i></a>
+      <a href="#"><i class="icon-instagram"></i></a>
     </div>
   </section>
+
+  <!-- MODALS FOR TEAM -->
+  <div id="krisModal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <h1 class="c-modal-close" data-dismiss="modal" aria-label="Close">x</h1>
+      <div class="team-modal-content">
+        <div class="team-modal-header">
+          <img src="images/KrisBowser.png">
+        </div>
+
+        <div class="team-modal-content">
+          <h2>KRIS BOWSER</h2>
+          <p>SOCIAL MEDIA SPECIALIST</p>
+          <p class="bio">
+            Kris has over 15 years of experience in corporate operations, communication, management and marketing, and has led teams that spanned across 8 states. She holds 2 B.S. degrees from the University of Utah, in Communication and Gender Studies. Kris has provided marketing and communication for multiple organizations and increased brand visibility while promoting a strong organizational culture. She believes leaders know the real value of any organization lies in the team. Kris is a high-energy communicator working to support others and find effective ways to relay their message. Helping others succeed is her jam!
+          </p>
+
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div>
+
+
+  <div id="chrisellaModal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <h1 class="c-modal-close" data-dismiss="modal" aria-label="Close">x</h1>
+      <div class="team-modal-content">
+        <div class="team-modal-header">
+          <img src="images/ChrisellaHerzog.png">
+        </div>
+
+        <div class="team-modal-content">
+          <h2>CHRISELLA HERZOG</h2>
+          <p>CONTENT EDITOR & CREATOR</p>
+          <p class="bio">
+            Chrisella Herzog has over five years of experience in international journalism, covering events from the UN General Assembly to the World Economic Forum, and interviewing business leaders, ambassadors, and innovators. Her most recent project is WhiteHat Magazine, covering technology in global social good and helping to encourage women entrepreneurs everywhere.
+          </p>
+
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div>
+
+
+  <div id="melissaModal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <h1 class="c-modal-close" data-dismiss="modal" aria-label="Close">x</h1>
+      <div class="team-modal-content">
+        <div class="team-modal-header">
+          <img src="images/Melissa.png">
+        </div>
+
+        <div class="team-modal-content">
+          <h2>MELISSA KNUTSON</h2>
+          <p>SPONSORSHIP STRATEGY COORDINATION</p>
+          <p class="bio">
+            Mel Knutson has over 15 years of program and project management experience in the financial industry. Most recently, as a Senior Project Manager, she ran a program implementing process improvement projects that realized $7M in savings. Mel attended Westminster College and earned a Master of Business Administration (MBA) and Bachelors of Science in Information Resource Management. Mel tends to take on efforts that have never been done before and figure out how to successfully achieve and implement change / results. She loves a challenge, learning new skills, and meeting new people!
+          </p>
+
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div>
+
+  <div id="lauraModal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <h1 class="c-modal-close" data-dismiss="modal" aria-label="Close">x</h1>
+      <div class="team-modal-content">
+        <div class="team-modal-header">
+          <img src="images/LauraMontoya.png">
+        </div>
+
+        <div class="team-modal-content">
+          <h2>LAURA MONTOYA</h2>
+          <p>AUDIENCE GROWTH STRATEGIST</p>
+          <p class="bio">
+            Laura has devoted the last 7 years of her life to the engagement of global and local audiences through written and visual content, and the good ol' one-on-one. Her mission is to inspire the masses through storytelling (which is my passion). She’s fluent in English and Spanish and holds a B.A. in Communication and International Studies.
+          </p>
+
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div>
+
+
+  <div id="londonModal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <h1 class="c-modal-close" data-dismiss="modal" aria-label="Close">x</h1>
+      <div class="team-modal-content">
+        <div class="team-modal-header">
+          <img src="images/London.png">
+        </div>
+
+        <div class="team-modal-content">
+          <h2>LONDON SUTHERLAND</h2>
+          <p>COMMUNITY OUTREACH & RELATIONS</p>
+          <p class="bio">
+            London is an aspiring entrepreneur who graduated in accounting from Weber State University. She has managed marketing and sales departments for seven years. Her life motto is: have fun and get crap done.
+          </p>
+
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div>
 
 </body>
 </html>
