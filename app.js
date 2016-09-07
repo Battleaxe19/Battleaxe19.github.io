@@ -83,12 +83,18 @@ d.slice(e-c+1,e+c+2).addClass("slick-active").attr("aria-hidden","false")),0===a
             arrows: true,
             centerMode: true,
             centerPadding: "40px",
-            slidesToShow: 2
+            slidesToShow: 2,
+            swipeToSlide: true
           }
         },
         {
           breakpoint: 480,
-          settings: "unslick" // destroys slick
+          settings: {
+            slidesToShow: 2,
+            centerMode: true,
+            centerPadding: "80px",
+            arrows: false
+          }
         }
       ]
     });
