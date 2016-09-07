@@ -70,10 +70,20 @@ d.slice(e-c+1,e+c+2).addClass("slick-active").attr("aria-hidden","false")),0===a
 })(jQuery);
 
 $(document).ready(function(){
-  // $( ".menu-button" ).click(function() {
-	// 	event.preventDefault();
-	// 	$("nav").toggleClass("active");
-	// });
+  $( ".menu-button" ).click(function() {
+
+		event.preventDefault();
+
+    if ($(".mobile-nav").hasClass("active")) {
+      $(".mobile-nav").toggleClass("active");
+      $(".mobile-nav").slideUp();
+    }
+    else {
+      $(".mobile-nav").toggleClass("active");
+      $(".mobile-nav").slideDown();
+    }
+	});
+
   $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
