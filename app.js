@@ -47,7 +47,7 @@ d.slice(e-c+1,e+c+2).addClass("slick-active").attr("aria-hidden","false")),0===a
 
     $(".js-events").click(function() {
       jQuery("html,body").animate({scrollTop: jQuery("#events").offset().top - 108}, 1000);
-      console.log("fart");
+
       return false;
     });
 
