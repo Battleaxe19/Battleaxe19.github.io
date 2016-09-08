@@ -46,8 +46,8 @@ d.slice(e-c+1,e+c+2).addClass("slick-active").attr("aria-hidden","false")),0===a
     });
 
     $(".js-events").click(function() {
-      jQuery("html,body").animate({scrollTop: jQuery("#events").offset().top - 108}, 1000);
-
+      jQuery("html,body").animate({scrollTop: jQuery("#event").offset().top - 108}, 1000);
+      console.log("fart");
       return false;
     });
 
@@ -83,16 +83,14 @@ d.slice(e-c+1,e+c+2).addClass("slick-active").attr("aria-hidden","false")),0===a
           breakpoint: 768,
           settings: {
             arrows: true,
-            // centerMode: true,
-            // centerPadding: "40px",
-            slidesToShow: 2,
+            slidesToShow: 1,
             swipeToSlide: true
           }
         },
         {
           breakpoint: 480,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 1,
             centerMode: true,
             centerPadding: "80px",
             arrows: true
